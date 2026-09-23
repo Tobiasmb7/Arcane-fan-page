@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Arcane | Contacto</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="logo"><h1>Arcane</h1><p>Crónicas de Piltover y Zaun</p></div>
+		<nav class="navigation" aria-label="Navegación principal">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="Epi.html">Episodios</a></li>
+				<li><a href="pj.html">Personajes</a></li>
+				<li><a class="active" href="cnt.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="page-layout contact-page">
+		<section class="page-heading">
+			<span class="eyebrow">Punto de encuentro</span>
+			<h2>Hablemos de<br><em>Arcane.</em></h2>
+			<p>¿Tenés una teoría, una escena favorita o una pregunta sobre el archivo? Dejanos tu mensaje y te respondemos apenas podamos.</p>
+		</section>
+
+		<section class="contact-layout cut-panel">
+			<div class="contact-note">
+				<span class="quote-mark">"</span>
+				<p>El mundo cambia cuando alguien se atreve a imaginar algo distinto.</p>
+				<span class="eyebrow">Piltover · Zaun</span>
+			</div>
+			<form id="contact-form">
+				<label for="name">Tu nombre</label>
+				<input id="name" name="name" type="text" required placeholder="Cómo te llamamos">
+				<label for="email">Tu correo</label>
+				<input id="email" name="email" type="email" required placeholder="nombre@ejemplo.com">
+				<label for="message">Tu mensaje</label>
+				<textarea id="message" name="message" rows="5" required placeholder="Escribí aquí..."></textarea>
+				<button type="submit">Enviar mensaje <span>↗</span></button>
+				<p class="form-status" aria-live="polite"></p>
+			</form>
+		</section>
+
+		<section class="faq-block">
+			<span class="eyebrow">Antes de escribir</span>
+			<h3 style="font-size:1.6rem; margin:12px 0 6px;">Preguntas frecuentes</h3>
+			<details class="faq-item">
+				<summary>¿Este sitio es oficial de Netflix o Riot Games?</summary>
+				<p>No. Es un archivo hecho por fans para reunir información, episodios y personajes de la serie en un mismo lugar.</p>
+			</details>
+			<details class="faq-item">
+				<summary>¿Van a agregar más personajes o episodios?</summary>
+				<p>Sí, el archivo se va a seguir ampliando con más rostros de Piltover y Zaun a medida que sumemos contenido.</p>
+			</details>
+			<details class="faq-item">
+				<summary>¿Puedo sugerir una corrección?</summary>
+				<p>Por supuesto. Contanos qué encontraste a través del formulario y lo revisamos.</p>
+			</details>
+			<details class="faq-item">
+				<summary>¿Dónde puedo ver Arcane?</summary>
+				<p>Las dos temporadas están disponibles en Netflix.</p>
+			</details>
+		</section>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>

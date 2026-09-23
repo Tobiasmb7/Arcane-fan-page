@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Arcane | Personajes</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="logo"><h1>Arcane</h1><p>Crónicas de Piltover y Zaun</p></div>
+		<nav class="navigation" aria-label="Navegación principal">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="Epi.html">Episodios</a></li>
+				<li><a class="active" href="pj.html">Personajes</a></li>
+				<li><a href="cnt.html">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="page-layout">
+		<section class="page-heading">
+			<span class="eyebrow">Archivo de personajes</span>
+			<h2>Rostros de dos<br><em>mundos opuestos.</em></h2>
+			<p>Once nombres que sostienen, transforman y quiebran el equilibrio entre Piltover y Zaun. Mientras no subas una foto, cada tarjeta muestra su inicial; agregá tus propias imágenes en la carpeta <code>src/</code> con el mismo nombre de archivo que usa cada tarjeta y van a reemplazar la inicial automáticamente.</p>
+		</section>
+
+		<section class="character-grid">
+			<article class="character-card character-featured character-affiliation-zaun">
+				<img src="src/vi.webp" alt="Vi" onerror="this.closest('.character-card').classList.add('sin-foto')">
+				<span class="avatar-fallback" aria-hidden="true">V</span>
+				<div>
+					<span class="eyebrow">Piltover / Zaun</span>
+					<h3>Vi</h3>
+					<p>Criada en los túneles de Zaun, carga con la pérdida de su familia y con una lealtad inquebrantable hacia Jinx, aunque el camino de ambas ya no sea el mismo.</p>
+				</div>
+			</article>
+			<article class="character-card character-featured character-affiliation-zaun">
+				<img src="src/jinx.jfif" alt="Jinx" onerror="this.closest('.character-card').classList.add('sin-foto')">
+				<span class="avatar-fallback" aria-hidden="true">J</span>
+				<div>
+					<span class="eyebrow">La bala perdida</span>
+					<h3>Jinx</h3>
+					<p>Antes Powder. Creativa, imprevisible y explosiva: en Zaun, su caos siempre tiene un motivo, aunque ella sea la última en admitirlo.</p>
+				</div>
+			</article>
+
+			<article class="character-card character-affiliation-piltover">
+				<img src="src/heimerdinger.jpg" alt="Heimerdinger" onerror="this.closest('.character-card').classList.add('sin-foto')">
+				<span class="avatar-fallback" aria-hidden="true">H</span>
+				<div>
+					<span class="eyebrow">El inventor</span>
+					<h3>Heimerdinger</h3>
+					<p>Un científico brillante y uno de los fundadores del Consejo, que observa el progreso con curiosidad y cautela.</p>
+				</div>
+			</article>
+			<article class="character-card character-affiliation-piltover">
+				<img src="src/claudia.png" alt="Caitlyn" onerror="this.closest('.character-card').classList.add('sin-foto')">
+				<span class="avatar-fallback" aria-hidden="true">C</span>
+				<div>
+					<span class="eyebrow">La francotiradora</span>
+					<h3>Caitlyn Kiramman</h3>
+					<p>Hija de una familia noble de Piltover que elige la insignia de enforcer antes que la vida cómoda que le tocaba.</p>
+				</div>
+			</article>
+			<article class="character-card character-affiliation-piltover">
+				<img src="src/jayce.webp" alt="Jayce Talis" onerror="this.closest('.character-card').classList.add('sin-foto')">
+				<span class="avatar-fallback" aria-hidden="true">J</span>
+				<div>
+					<span class="eyebrow">El hombre prodigio</span>
+					<h3>Jayce Talis</h3>
+					<p>Inventor de la hextech y símbolo del progreso de Piltover, atrapado entre sus ideales y las decisiones que debe tomar en el Consejo.</p>
+				</div>
+			</article>
+			<article class="character-card character-affiliation-zaun">
+				<img src="src/viktor.webp" alt="Viktor" onerror="this.closest('.character-card').classList.add('sin-foto')">
+				<span class="avatar-fallback" aria-hidden="true">V</span>
+				<div>
+					<span class="eyebrow">El heraldo</span>
+					<h3>Viktor</h3>
+					<p>Socio de Jayce y nacido en Zaun, ve en la hextech una posible cura para su propio cuerpo y para el sufrimiento de su ciudad.</p>
+				</div>
+			</article>
+			<article class="character-card character-affiliation-zaun">
+				<img src="src/silco.webp" alt="Silco" onerror="this.closest('.character-card').classList.add('sin-foto')">
+				<span class="avatar-fallback" aria-hidden="true">S</span>
+				<div>
+					<span class="eyebrow">El padrino de Zaun</span>
+					<h3>Silco</h3>
+					<p>Un líder criminal que sueña con una Zaun independiente y que encuentra en Jinx a la hija que nunca tuvo.</p>
+				</div>
+			</article>
+			<article class="character-card character-affiliation-zaun">
+				<img src="src/ekko.jpeg" alt="Ekko" onerror="this.closest('.character-card').classList.add('sin-foto')">
+				<span class="avatar-fallback" aria-hidden="true">E</span>
+				<div>
+					<span class="eyebrow">El corazón de los Firelights</span>
+					<h3>Ekko</h3>
+					<p>Amigo de infancia de Vi y Jinx, hoy líder de los Firelights, un grupo que protege lo que queda de la comunidad zaunita.</p>
+				</div>
+			</article>
+			<article class="character-card character-affiliation-piltover">
+				<img src="src/mel.jfif" alt="Mel Medarda" onerror="this.closest('.character-card').classList.add('sin-foto')">
+				<span class="avatar-fallback" aria-hidden="true">M</span>
+				<div>
+					<span class="eyebrow">La consejera</span>
+					<h3>Mel Medarda</h3>
+					<p>Heredera de una poderosa familia noble, mueve los hilos políticos del Consejo con una ambición tan aguda como su encanto.</p>
+				</div>
+			</article>
+			<article class="character-card character-affiliation-zaun">
+				<img src="src/sevika.webp" alt="Sevika" onerror="this.closest('.character-card').classList.add('sin-foto')">
+				<span class="avatar-fallback" aria-hidden="true">S</span>
+				<div>
+					<span class="eyebrow">La mano derecha</span>
+					<h3>Sevika</h3>
+					<p>Lugarteniente de Silco, curtida por años de lucha en Zaun y dispuesta a lo que sea para proteger lo que él construyó.</p>
+				</div>
+			</article>
+		</section>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
